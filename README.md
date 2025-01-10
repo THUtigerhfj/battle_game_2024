@@ -32,6 +32,8 @@ git clone https://github.com/microsoft/vcpkg.git
 
 即 `cmake -S {repo path} -B {build path} -DCMAKE_TOOLCHAIN_FILE={vcpkg path}/scripts/buildsystems/vcpkg.cmake`
 
+`cmake -S .. -B . -DCMAKE_TOOLCHAIN_FILE=../../vcpkg/scripts/buildsystems/vcpkg.cmake` (in build)
+
 项目的其他依赖还包括：
 
 - [Vulkan SDK](https://vulkan.lunarg.com/sdk/home)
