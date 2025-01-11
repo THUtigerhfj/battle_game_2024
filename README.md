@@ -32,7 +32,7 @@ git clone https://github.com/microsoft/vcpkg.git
 
 即 `cmake -S {repo path} -B {build path} -DCMAKE_TOOLCHAIN_FILE={vcpkg path}/scripts/buildsystems/vcpkg.cmake`
 
-`cmake -S .. -B . -DCMAKE_TOOLCHAIN_FILE=../../vcpkg/scripts/buildsystems/vcpkg.cmake` (in build)
+`cmake -S ~/Yao_Class/Introduction_to_Programming/battle_game_2024 -B ~/Yao_Class/Introduction_to_Programming/battle_game_2024/build -DCMAKE_TOOLCHAIN_FILE=~/Yao_Class/Introduction_to_Programming/vcpkg/scripts/buildsystems/vcpkg.cmake` 
 
 项目的其他依赖还包括：
 
@@ -40,6 +40,10 @@ git clone https://github.com/microsoft/vcpkg.git
 - [Python3](https://www.python.org/)
 
 请确保你的环境中已经安装了这些依赖项。
+
+Run the executable file:
+
+`tiger@tigerThinkPad:~/Yao_Class/Introduction_to_Programming/battle_game_2024/build/src/battle_game$ ./battle_game`
 
 ## 任务
 
