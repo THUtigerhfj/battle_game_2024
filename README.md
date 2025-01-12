@@ -117,6 +117,7 @@ Run the executable file:
 你可以从 Issues 列表中选择一个你认为自己可以解决的部分，然后提交一个新的 PR 实现这个功能。
 在实现完成后，你同样需要将你的运行结果截图提交到 PR 的备注中。同时，请在备注中加入 Close #IssueNumber 的方式关联你的 PR 和 Issue。
 Good Luck and Have Fun！
+Close Issue #190
 
 ## 验收
 
